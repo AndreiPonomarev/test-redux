@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.appTitle {
+  font-size: 1.5em;
+}
+
+.appIntro {
+  font-size: large;
+}
+
+.panel {
+    margin-top: 25px;
+    height: 400px !important;
+    overflow-y: overlay;
+
+}
+
+.vehicleList {
+    list-style: none;
+    text-align: left;
+}
+
+.listItem {
+    font-size: 16px;
+}
+
+.listItem:hover {
+    background-color: #fafafa;
+}
+
+.colorBox {
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    border: 1px dotted black;
+    display: inline-block;
+}
